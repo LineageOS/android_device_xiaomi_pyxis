@@ -47,5 +47,9 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     prebuilts/vndk/v29/arm/arch-arm-armv7-a-neon/shared/vndk-core/libprotobuf-cpp-full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-full-v29.so
 
+# WiFi
+PRODUCT_PACKAGES += \
+    TargetWifiOverlay
+
 # Inherit from the proprietary version
 $(call inherit-product, vendor/xiaomi/pyxis/pyxis-vendor.mk)
