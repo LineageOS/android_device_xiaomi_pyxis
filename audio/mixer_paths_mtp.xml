@@ -545,6 +545,10 @@
         <path name="deep-buffer-playback" />
     </path>
 
+    <path name="deep-buffer-playback handset">
+        <ctl name="INT0_MI2S_RX Audio Mixer MultiMedia1" value="1" />
+    </path>
+
     <path name="deep-buffer-playback headphones">
         <ctl name="INT0_MI2S_RX Audio Mixer MultiMedia1" value="1" />
     </path>
@@ -650,6 +654,10 @@
         <path name="low-latency-playback" />
     </path>
 
+    <path name="low-latency-playback handset">
+        <ctl name="INT0_MI2S_RX Audio Mixer MultiMedia5" value="1" />
+    </path>
+
     <path name="low-latency-playback headphones">
         <ctl name="INT0_MI2S_RX Audio Mixer MultiMedia5" value="1" />
     </path>
@@ -698,6 +706,10 @@
 
     <path name="audio-ull-playback speaker-safe">
         <path name="audio-ull-playback" />
+    </path>
+
+    <path name="audio-ull-playback handset">
+        <ctl name="INT0_MI2S_RX Audio Mixer MultiMedia8" value="1" />
     </path>
 
     <path name="audio-ull-playback headphones">
@@ -866,6 +878,10 @@
         <path name="compress-offload-playback" />
     </path>
 
+    <path name="compress-offload-playback handset">
+        <ctl name="INT0_MI2S_RX Audio Mixer MultiMedia4" value="1" />
+    </path>
+
     <path name="compress-offload-playback headphones">
         <ctl name="INT0_MI2S_RX Audio Mixer MultiMedia4" value="1" />
     </path>
@@ -974,6 +990,10 @@
         <path name="compress-offload-playback2" />
     </path>
 
+    <path name="compress-offload-playback2 handset">
+        <ctl name="INT0_MI2S_RX Audio Mixer MultiMedia7" value="1" />
+    </path>
+
     <path name="compress-offload-playback2 headphones">
         <ctl name="INT0_MI2S_RX Audio Mixer MultiMedia7" value="1" />
     </path>
@@ -1080,6 +1100,10 @@
     <path name="compress-offload-playback3 speaker-safe-and-usb-headphones">
         <path name="compress-offload-playback3 usb-headphones" />
         <path name="compress-offload-playback3" />
+    </path>
+
+    <path name="compress-offload-playback3 handset">
+        <ctl name="INT0_MI2S_RX Audio Mixer MultiMedia10" value="1" />
     </path>
 
     <path name="compress-offload-playback3 headphones">
@@ -1191,6 +1215,10 @@
         <path name="compress-offload-playback4" />
     </path>
 
+    <path name="compress-offload-playback4 handset">
+        <ctl name="INT0_MI2S_RX Audio Mixer MultiMedia11" value="1" />
+    </path>
+
     <path name="compress-offload-playback4 headphones">
         <ctl name="INT0_MI2S_RX Audio Mixer MultiMedia11" value="1" />
     </path>
@@ -1297,6 +1325,10 @@
     <path name="compress-offload-playback5 speaker-safe-and-usb-headphones">
         <path name="compress-offload-playback5 usb-headphones" />
         <path name="compress-offload-playback5" />
+    </path>
+
+    <path name="compress-offload-playback5 handset">
+        <ctl name="INT0_MI2S_RX Audio Mixer MultiMedia12" value="1" />
     </path>
 
     <path name="compress-offload-playback5 headphones">
@@ -1407,6 +1439,10 @@
         <path name="compress-offload-playback6" />
     </path>
 
+    <path name="compress-offload-playback6 handset">
+        <ctl name="INT0_MI2S_RX Audio Mixer MultiMedia13" value="1" />
+    </path>
+
     <path name="compress-offload-playback6 headphones">
         <ctl name="INT0_MI2S_RX Audio Mixer MultiMedia13" value="1" />
     </path>
@@ -1515,6 +1551,10 @@
         <path name="compress-offload-playback7" />
     </path>
 
+    <path name="compress-offload-playback7 handset">
+        <ctl name="INT0_MI2S_RX Audio Mixer MultiMedia14" value="1" />
+    </path>
+
     <path name="compress-offload-playback7 headphones">
         <ctl name="INT0_MI2S_RX Audio Mixer MultiMedia14" value="1" />
     </path>
@@ -1621,6 +1661,10 @@
     <path name="compress-offload-playback8 speaker-safe-and-usb-headphones">
         <path name="compress-offload-playback8 usb-headphones" />
         <path name="compress-offload-playback8" />
+    </path>
+
+    <path name="compress-offload-playback8 handset">
+        <ctl name="INT0_MI2S_RX Audio Mixer MultiMedia15" value="1" />
     </path>
 
     <path name="compress-offload-playback8 headphones">
@@ -1926,6 +1970,11 @@
         <ctl name="Voip_Tx Mixer INT3_MI2S_TX_Voip" value="1" />
     </path>
 
+    <path name="compress-voip-call handset">
+        <ctl name="INT0_MI2S_RX_Voice Mixer Voip" value="1" />
+        <ctl name="Voip_Tx Mixer INT3_MI2S_TX_Voip" value="1" />
+    </path>
+
     <path name="compress-voip-call headphones">
         <ctl name="INT0_MI2S_RX_Voice Mixer Voip" value="1" />
         <ctl name="Voip_Tx Mixer INT3_MI2S_TX_Voip" value="1" />
@@ -1960,6 +2009,11 @@
     <path name="voicemmode1-call">
         <ctl name="VOC_EXT_EC MUX" value="PRI_MI2S_RX" />
         <ctl name="PRI_MI2S_RX_Voice Mixer VoiceMMode1" value="1" />
+        <ctl name="VoiceMMode1_Tx Mixer INT3_MI2S_TX_MMode1" value="1" />
+    </path>
+
+    <path name="voicemmode1-call handset">
+        <ctl name="INT0_MI2S_RX_Voice Mixer VoiceMMode1" value="1" />
         <ctl name="VoiceMMode1_Tx Mixer INT3_MI2S_TX_MMode1" value="1" />
     </path>
 
@@ -2005,6 +2059,11 @@
         <ctl name="VoiceMMode2_Tx Mixer INT3_MI2S_TX_MMode2" value="1" />
     </path>
 
+    <path name="voicemmode2-call handset">
+        <ctl name="INT0_MI2S_RX_Voice Mixer VoiceMMode2" value="1" />
+        <ctl name="VoiceMMode2_Tx Mixer INT3_MI2S_TX_MMode2" value="1" />
+    </path>
+
     <path name="voicemmode2-call headphones">
         <ctl name="INT0_MI2S_RX_Voice Mixer VoiceMMode2" value="1" />
         <ctl name="VoiceMMode2_Tx Mixer INT3_MI2S_TX_MMode2" value="1" />
@@ -2043,6 +2102,10 @@
     <!-- VOIP Rx settings -->
     <path name="audio-playback-voip">
         <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia10" value="1" />
+    </path>
+
+    <path name="audio-playback-voip handset">
+        <ctl name="INT0_MI2S_RX Audio Mixer MultiMedia10" value="1" />
     </path>
 
     <path name="audio-playback-voip headphones">
@@ -2842,6 +2905,10 @@
 
     <path name="mmap-playback">
         <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia16" value="1" />
+    </path>
+
+    <path name="mmap-playback handset">
+        <ctl name="INT0_MI2S_RX Audio Mixer MultiMedia16" value="1" />
     </path>
 
     <path name="mmap-playback headphones">
