@@ -2,5 +2,8 @@
 ro.vendor.audio.soundtrigger=xiaomi
 ro.vendor.audio.soundtrigger.lowpower=false
 
+# Bluetooth
+bluetooth.device.default_name=Xiaomi Mi 9 Lite
+
 # Camera
 persist.vendor.camera.privapp.list=com.android.camera
