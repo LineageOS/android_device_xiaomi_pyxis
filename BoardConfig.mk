@@ -15,5 +15,8 @@ TARGET_SCREEN_DENSITY := 440
 # Kernel
 TARGET_KERNEL_CONFIG += xiaomi/pyxis.config
 
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 # Inherit from the proprietary version
 include vendor/xiaomi/pyxis/BoardConfigVendor.mk
