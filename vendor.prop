@@ -1,3 +1,7 @@
+# Audio
+ro.vendor.audio.soundtrigger=xiaomi
+ro.vendor.audio.soundtrigger.lowpower=false
+
 # Display
 ro.surface_flinger.has_HDR_display=true
 ro.surface_flinger.has_wide_color_display=true
