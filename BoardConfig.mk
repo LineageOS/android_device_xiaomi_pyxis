@@ -11,6 +11,9 @@ DEVICE_PATH := device/xiaomi/pyxis
 
 BUILD_BROKEN_DUP_RULES := true
 
+# Audio
+TARGET_PROVIDES_AUDIO_EXTNS := true
+
 # Display
 TARGET_SCREEN_DENSITY := 440
 
