@@ -28,6 +28,10 @@ PRODUCT_PACKAGES += \
     libqcomfm_jni \
     qcom.fmradio
 
+# Input
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/keylayout/sdm670-mtp-snd-card_Button_Jack.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/sdm670-mtp-snd-card_Button_Jack.kl
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
