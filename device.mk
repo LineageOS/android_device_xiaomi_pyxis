@@ -4,6 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+TARGET_HAS_FM := true
 TARGET_HAS_NFC := true
 TARGET_HAS_UDFPS := true
 
@@ -21,12 +22,6 @@ PRODUCT_COPY_FILES += \
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
-
-# FM radio
-PRODUCT_PACKAGES += \
-    FM2 \
-    libqcomfm_jni \
-    qcom.fmradio
 
 # Input
 PRODUCT_COPY_FILES += \

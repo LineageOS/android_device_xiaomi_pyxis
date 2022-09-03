@@ -1,6 +1,3 @@
 # Audio
 ro.vendor.audio.soundtrigger=xiaomi
 ro.vendor.audio.soundtrigger.lowpower=false
-
-# FM
-vendor.qcom.bluetooth.soc=cherokee
