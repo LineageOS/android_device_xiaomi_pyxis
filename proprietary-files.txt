@@ -287,7 +287,6 @@ vendor/etc/sensors/config/sns_smd.json
 vendor/etc/sensors/config/tcs3701.json
 vendor/etc/sensors/config/tmd3702_0.json
 vendor/etc/sensors/config/tsl2540_0.json
-vendor/etc/sensors/hals.conf
 vendor/etc/sensors/sns_reg_config
 
 # Thermal configs
