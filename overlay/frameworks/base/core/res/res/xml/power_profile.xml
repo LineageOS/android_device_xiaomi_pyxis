@@ -97,20 +97,5 @@
         <value>.2</value>
         <value>2</value>
     </array>
-    <item name="modem.controller.sleep">0</item>
-    <item name="modem.controller.idle">0</item>
-    <item name="modem.controller.rx">0</item>
-    <array name="modem.controller.tx">
-        <value>0</value>
-        <value>0</value>
-        <value>0</value>
-        <value>0</value>
-        <value>0</value>
-    </array>
-    <item name="modem.controller.voltage">0</item>
-    <array name="gps.signalqualitybased">
-        <value>0</value>
-        <value>0</value>
-    </array>
-    <item name="gps.voltage">0</item>
+    <item name="bluetooth.controller.voltage">3300</item>
 </device>
