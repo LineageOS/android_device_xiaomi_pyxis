@@ -72,12 +72,28 @@ vendor/lib/libsymphony-cpu.so
 vendor/lib/libsymphonypower.so
 vendor/lib/libvideoutils.so
 vendor/lib/libvidhance.so
+vendor/lib64/libVDClearShot.so
+vendor/lib64/libVDDualCameraClearShot.so
+vendor/lib64/libVDSuperPhotoAPI.so
+vendor/lib64/libcamera_nn_stub.so
+vendor/lib64/libcamxfdalgov7.so
+vendor/lib64/libmialgo_fs.so
+vendor/lib64/libmialgoengine.so
+vendor/lib64/libmibokeh_712.so
+vendor/lib64/libmmcamera_faceproc.so
+vendor/lib64/libmmcamera_faceproc2.so
+vendor/lib64/libmpbase.so
+vendor/lib64/libnanopb.so
+vendor/lib64/libswregistrationalgo.so
+vendor/lib64/libvidhance.so
 
 # Camera (Altek modules)
 vendor/lib/libalCFR.so
 vendor/lib/libalLDC.so
 vendor/lib/libalRnBRT_GL_GBWRAPPER.so
 vendor/lib/libalhLDC.so
+vendor/lib64/libalCFR.so
+vendor/lib64/libalhLDC.so
 
 # Camera (Arcsoft modules)
 vendor/lib/libarcsoft_beautyshot.so
@@ -92,6 +108,18 @@ vendor/lib/libarcsoft_low_light_hdr.so
 vendor/lib/libarcsoft_portrait_lighting.so
 vendor/lib/libarcsoft_portrait_lighting_c.so
 vendor/lib/libarcsoft_supernight.so
+vendor/lib64/libarcsoft_beautyshot.so
+vendor/lib64/libarcsoft_bodyslim.so
+vendor/lib64/libarcsoft_distortion_correction.so
+vendor/lib64/libarcsoft_dualcam_refocus.so
+vendor/lib64/libarcsoft_dualcam_refocus_front.so
+vendor/lib64/libarcsoft_dualcam_refocus_rear_t.so
+vendor/lib64/libarcsoft_dualcam_refocus_rear_w.so
+vendor/lib64/libarcsoft_high_dynamic_range.so
+vendor/lib64/libarcsoft_low_light_hdr.so
+vendor/lib64/libarcsoft_portrait_lighting.so
+vendor/lib64/libarcsoft_portrait_lighting_c.so
+vendor/lib64/libarcsoft_supernight.so
 
 # Camera (components)
 vendor/lib/camera/components/etc/morpho_lowlight4.0.xml
