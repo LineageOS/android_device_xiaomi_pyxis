@@ -195,6 +195,13 @@ vendor/etc/camera/model_front.dlc
 vendor/etc/camera/sceneDetection.xml
 vendor/etc/camera/visidon_clearshot_params_algoup.xml
 
+# Camera (provider)
+vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so
+vendor/lib/android.hardware.camera.provider@2.4-external.so
+vendor/lib/android.hardware.camera.provider@2.4-legacy.so
+vendor/lib/vendor.qti.hardware.camera.device@2.0.so
+vendor/lib/vendor.qti.hardware.camera.device@3.5.so
+
 # Camera (sensors)
 vendor/lib/camera/com.qti.sensor.pyxis_imx582.so
 vendor/lib/camera/com.qti.sensor.pyxis_imx586.so
