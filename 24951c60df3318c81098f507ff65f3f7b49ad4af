@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f424652f_99d63b15",
+        "filename": "rro_overlays/WifiOverlay/AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 27772
+      },
+      "writtenOn": "2022-12-24T18:15:48Z",
+      "side": 1,
+      "message": "9 Lite",
+      "revId": "24951c60df3318c81098f507ff65f3f7b49ad4af",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "82aa30a0_75286340",
+        "filename": "rro_overlays/WifiOverlay/AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 27772
+      },
+      "writtenOn": "2022-12-24T18:15:48Z",
+      "side": 1,
+      "message": "pyxis",
+      "revId": "24951c60df3318c81098f507ff65f3f7b49ad4af",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
