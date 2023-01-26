@@ -1,4 +1,4 @@
-# Unpinned blobs from pyxis-user 11 RKQ1.200826.002 V12.5.2.0.RFCMIXM release-keys
+# Unpinned blobs from pyxis-user 11 RKQ1.200826.002 V12.5.3.0.RFCEUXM release-keys
 
 # ACDB
 vendor/etc/acdbdata/Tutu/Tutu_Bluetooth_cal.acdb:vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
