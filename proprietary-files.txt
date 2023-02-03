@@ -75,17 +75,10 @@ vendor/lib/libvidhance.so
 vendor/lib64/libVDClearShot.so
 vendor/lib64/libVDDualCameraClearShot.so
 vendor/lib64/libVDSuperPhotoAPI.so
-vendor/lib64/libcamera_nn_stub.so
-vendor/lib64/libcamxfdalgov7.so
-vendor/lib64/libmialgo_fs.so
 vendor/lib64/libmialgoengine.so
 vendor/lib64/libmibokeh_712.so
-vendor/lib64/libmmcamera_faceproc.so
-vendor/lib64/libmmcamera_faceproc2.so
 vendor/lib64/libmpbase.so
 vendor/lib64/libnanopb.so
-vendor/lib64/libswregistrationalgo.so
-vendor/lib64/libvidhance.so
 
 # Camera (Altek modules)
 vendor/lib/libalCFR.so
