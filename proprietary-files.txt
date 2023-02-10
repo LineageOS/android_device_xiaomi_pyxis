@@ -1,4 +1,5 @@
 # Unpinned blobs from pyxis-user 11 RKQ1.200826.002 V12.5.2.0.RFCMIXM release-keys
+# vela: vela-user 11 RKQ1.200826.002 V12.5.5.0.RFECNXM release-keys
 
 # ACDB
 vendor/etc/acdbdata/Tutu/Tutu_Bluetooth_cal.acdb:vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
@@ -240,6 +241,9 @@ vendor/lib/mibokeh_712_opencl.bin
 
 # Display calibration
 vendor/etc/dsi_ss_ea8076_fhd_cmd_display_f3b_mi.xml
+
+# Display calibration - from vela
+vendor/etc/dsi_ss_ea8076_fhd_cmd_display_f3m_mi.xml
 
 # Display configs
 vendor/etc/hdr_config.cfg
