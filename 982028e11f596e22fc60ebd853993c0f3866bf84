@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "68866d6a_81cad638",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2023-02-10T23:27:13Z",
+      "side": 1,
+      "message": "and, THIS PATCHSET DOES NOT MAKE BOTH DEVICES UNIFIED !!!\n\nOnly just supports both devices in one repository, That\u0027s all.",
+      "revId": "982028e11f596e22fc60ebd853993c0f3866bf84",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
