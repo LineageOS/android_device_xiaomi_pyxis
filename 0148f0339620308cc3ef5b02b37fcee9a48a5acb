@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dfc797c2_8232f688",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2023-02-10T23:04:06Z",
+      "side": 1,
+      "message": "I\u0027m going to submit this device, will make devrel request soon\n\nI\u0027ve been in touch with pyxis maintainer (Ivan Vecera) for some time, and he allowed me to do this\n\n(and I wasn\u0027t unifying devices for no real reason, please. but I changed my plan now)",
+      "revId": "0148f0339620308cc3ef5b02b37fcee9a48a5acb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
