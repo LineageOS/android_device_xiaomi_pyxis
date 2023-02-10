@@ -1,5 +1,5 @@
 runtime_resource_overlay {
-    name: "TargetWifiOverlay",
+    name: "TargetWifiOverlay_vela",
     theme: "TargetWifiOverlay",
     sdk_version: "current",
     vendor: true

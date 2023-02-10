@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2022-2023 The LineageOS Project
+# Copyright (C) 2023 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -12,23 +12,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from pyxis device
-PRODUCT_HARDWARE := pyxis
+PRODUCT_HARDWARE := vela
 $(call inherit-product, device/xiaomi/pyxis/device.mk)
 
-# Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-device-pyxis \
-    $(LOCAL_PATH)/overlay-device-pyxis-lineage
-
-PRODUCT_NAME := lineage_pyxis
-PRODUCT_DEVICE := pyxis
+PRODUCT_NAME := lineage_vela
+PRODUCT_DEVICE := vela
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Mi 9 Lite
+PRODUCT_BRAND := Meitu
+PRODUCT_MODEL := MI CC 9 Meitu Edition
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="pyxis-user 11 RKQ1.200826.002 V12.5.3.0.RFCEUXM release-keys"
+    PRIVATE_BUILD_DESC="vela-user 11 RKQ1.200826.002 V12.5.5.0.RFECNXM release-keys"
 
-BUILD_FINGERPRINT := Xiaomi/pyxis_eea/pyxis:11/RKQ1.200826.002/V12.5.3.0.RFCEUXM:user/release-keys
+BUILD_FINGERPRINT := Meitu/vela/vela:11/RKQ1.200826.002/V12.5.5.0.RFECNXM:user/release-keys
