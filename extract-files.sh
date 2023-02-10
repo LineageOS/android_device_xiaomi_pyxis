@@ -26,4 +26,6 @@ export DEVICE=pyxis
 export DEVICE_COMMON=sdm710-common
 export VENDOR=xiaomi
 
-"./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
+MY_DIR="$(cd "$(dirname "${0}")"; pwd -P)"
+
+"${MY_DIR}/../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
