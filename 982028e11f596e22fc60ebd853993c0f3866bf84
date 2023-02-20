@@ -33,6 +33,29 @@
       "message": "Wait for devrel response, before finally submitting this topic",
       "revId": "982028e11f596e22fc60ebd853993c0f3866bf84",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cb89da10_3f8042a0",
+        "filename": "rro_overlays/WifiOverlay_pyxis/Android.bp",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 30475
+      },
+      "writtenOn": "2023-02-20T15:40:39Z",
+      "side": 1,
+      "message": "You have to put `TargetWifiOverlay_pyxis` here.",
+      "range": {
+        "startLine": 2,
+        "startChar": 11,
+        "endLine": 2,
+        "endChar": 28
+      },
+      "revId": "982028e11f596e22fc60ebd853993c0f3866bf84",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
