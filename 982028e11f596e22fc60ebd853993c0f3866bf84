@@ -56,6 +56,30 @@
       },
       "revId": "982028e11f596e22fc60ebd853993c0f3866bf84",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5512966d_c154ac1e",
+        "filename": "rro_overlays/WifiOverlay_pyxis/Android.bp",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2023-02-20T19:32:04Z",
+      "side": 1,
+      "message": "oh,\nbut they doesn\u0027t accept this device tree style, this chain is basically abandoned",
+      "parentUuid": "cb89da10_3f8042a0",
+      "range": {
+        "startLine": 2,
+        "startChar": 11,
+        "endLine": 2,
+        "endChar": 28
+      },
+      "revId": "982028e11f596e22fc60ebd853993c0f3866bf84",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
