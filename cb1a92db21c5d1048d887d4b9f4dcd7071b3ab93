@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8fb07125_1cb899b1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30475
+      },
+      "writtenOn": "2023-03-12T14:10:12Z",
+      "side": 1,
+      "message": "Reported and tested by users from community.\nVerified as well by myself - fingerprint sensor is now more reliable.",
+      "revId": "cb1a92db21c5d1048d887d4b9f4dcd7071b3ab93",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
