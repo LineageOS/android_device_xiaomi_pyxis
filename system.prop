@@ -6,3 +6,6 @@ persist.vendor.camera.multicam=TRUE
 persist.vendor.camera.multicam.fpsmatch=TRUE
 persist.vendor.camera.multicam.framesync=1
 persist.vendor.camera.multicam.hwsync=TRUE
+
+# Panel
+sys.panel.touch_vendor=3
