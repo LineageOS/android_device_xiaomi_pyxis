@@ -2008,7 +2008,7 @@
     </path>
 
     <path name="audio-playback-voip display-port">
-        <ctl name="DISPLAY_PORT Audio Mixer MultiMedia10" value="1" />
+        <ctl name="DISPLAY_PORT Mixer MultiMedia10" value="1" />
     </path>
 
     <path name="audio-playback-voip speaker-and-display-port">
