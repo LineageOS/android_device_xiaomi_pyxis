@@ -2878,7 +2878,7 @@
     </path>
 
     <path name="mmap-record">
-      <ctl name="MultiMedia16 Mixer INT3_MI2S_TX " value="1" />
+      <ctl name="MultiMedia16 Mixer INT3_MI2S_TX" value="1" />
     </path>
 
     <path name="mmap-record bt-sco">
