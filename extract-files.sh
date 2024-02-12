@@ -8,7 +8,7 @@
 
 function blob_fixup() {
     case "${1}" in
-	vendor/lib/libswregistrationalgo.so)
+        vendor/lib/libswregistrationalgo.so)
             ${PATCHELF} --replace-needed "libprotobuf-cpp-full.so" "libprotobuf-cpp-full-v29.so" "${2}"
             ;;
     esac
