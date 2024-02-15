@@ -2348,6 +2348,12 @@
     <path name="true-native-mode">
     </path>
 
+    <path name="hph-highquality-mode">
+    </path>
+
+    <path name="hph-lowpower-mode">
+    </path>
+
     <path name="line">
         <path name="headphones" />
     </path>
