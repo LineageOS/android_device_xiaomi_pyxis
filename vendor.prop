@@ -1,4 +1,5 @@
 # Audio
+ro.hardware.audio_amplifier=tas2562
 ro.vendor.audio.soundtrigger=xiaomi
 ro.vendor.audio.soundtrigger.lowpower=false
 

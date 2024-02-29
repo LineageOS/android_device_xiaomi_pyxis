@@ -17,6 +17,9 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Audio
 PRODUCT_PACKAGES += \
+    audio_amplifier.tas2562
+
+PRODUCT_PACKAGES += \
     liba2dpoffload \
     libhdmiedid \
     libhfp \
