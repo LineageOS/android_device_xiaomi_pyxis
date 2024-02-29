@@ -11,6 +11,9 @@ DEVICE_PATH := device/xiaomi/pyxis
 
 BUILD_BROKEN_DUP_RULES := true
 
+# Audio
+AUDIO_FEATURE_ENABLED_EXT_AMPLIFIER := true
+
 # Camera
 MALLOC_SVELTE_FOR_LIBC32 := true
 
