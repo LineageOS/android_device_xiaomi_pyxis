@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2563ecb6_f9e3ba6a",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-03-03T20:00:59Z",
+      "side": 1,
+      "message": "Don\u0027t those belong to common tree?",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 33
+      },
+      "revId": "0fac52304e832ce84a00e761e40dd5708687b645",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b7df2adb_bbbeb3eb",
+        "filename": "device.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-03-03T20:00:59Z",
+      "side": 1,
+      "message": "Same goes for this",
+      "range": {
+        "startLine": 18,
+        "startChar": 0,
+        "endLine": 25,
+        "endChar": 12
+      },
+      "revId": "0fac52304e832ce84a00e761e40dd5708687b645",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
