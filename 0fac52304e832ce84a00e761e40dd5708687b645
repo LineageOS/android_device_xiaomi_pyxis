@@ -48,6 +48,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "55ef3ca3_a3363501",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 30475
+      },
+      "writtenOn": "2024-03-04T16:25:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7f47703c_98be57d7",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 33
+      },
+      "revId": "0fac52304e832ce84a00e761e40dd5708687b645",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b7df2adb_bbbeb3eb",
@@ -85,6 +109,30 @@
       "side": 1,
       "message": "ditto",
       "parentUuid": "b7df2adb_bbbeb3eb",
+      "range": {
+        "startLine": 18,
+        "startChar": 0,
+        "endLine": 25,
+        "endChar": 12
+      },
+      "revId": "0fac52304e832ce84a00e761e40dd5708687b645",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "feeb7847_45092a35",
+        "filename": "device.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 30475
+      },
+      "writtenOn": "2024-03-04T16:25:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5ea7d5ef_581cc32a",
       "range": {
         "startLine": 18,
         "startChar": 0,
