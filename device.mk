@@ -47,10 +47,6 @@ PRODUCT_SHIPPING_API_LEVEL := 28
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
-# VNDK
-PRODUCT_COPY_FILES += \
-    prebuilts/vndk/v29/arm/arch-arm-armv7-a-neon/shared/vndk-core/libprotobuf-cpp-full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-full-v29.so
-
 # WiFi
 PRODUCT_PACKAGES += \
     TargetWifiOverlay

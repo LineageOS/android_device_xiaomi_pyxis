@@ -37,8 +37,6 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/lib/hw/com.qti.chi.override.so': blob_fixup()
         .binary_regex_replace(b'persist.vendor.camera.xiaomi.remapid',
                               b'vendor.camera.remapid\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0'),
-    'vendor/lib/libswregistrationalgo.so': blob_fixup()
-        .replace_needed('libprotobuf-cpp-full.so', 'libprotobuf-cpp-full-v29.so'),
 }   # fmt: skip
 
 module = ExtractUtilsModule(
