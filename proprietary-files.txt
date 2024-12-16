@@ -1,5 +1,10 @@
 # Unpinned blobs from pyxis-user 11 RKQ1.200826.002 V12.5.3.0.RFCEUXM release-keys
 
+# Libraries with undefined symbols:
+# - libVDSuperPhotoAPI
+# - libhvx_proxy_stub
+# - libmmcamera_faceproc
+
 # ACDB
 vendor/etc/acdbdata/Tutu/Tutu_Bluetooth_cal.acdb:vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
 vendor/etc/acdbdata/Tutu/Tutu_General_cal.acdb:vendor/etc/acdbdata/Forte/Forte_General_cal.acdb
@@ -35,7 +40,7 @@ vendor/lib/hw/com.qti.chi.override.so
 vendor/lib/libFaceGrade.so
 vendor/lib/libSNPE.so
 vendor/lib/libVDClearShot.so
-vendor/lib/libVDSuperPhotoAPI.so
+vendor/lib/libVDSuperPhotoAPI.so;DISABLE_CHECKELF
 vendor/lib/libXMFD_AgeGender.so
 vendor/lib/lib_denoiser3.so
 vendor/lib/libc++_shared.so
@@ -49,7 +54,7 @@ vendor/lib/libcom.qti.chinodeutils.so
 vendor/lib/libmialgo_fs.so
 vendor/lib/libmialgo_sd.so
 vendor/lib/libmibokeh_712.so
-vendor/lib/libmmcamera_faceproc.so
+vendor/lib/libmmcamera_faceproc.so;DISABLE_CHECKELF
 vendor/lib/libmmcamera_faceproc2.so
 vendor/lib/libmpbase.so
 vendor/lib/libnanopb.so
@@ -60,7 +65,7 @@ vendor/lib/libvideoutils.so
 vendor/lib/libvidhance.so
 vendor/lib64/libVDClearShot.so
 vendor/lib64/libVDDualCameraClearShot.so
-vendor/lib64/libVDSuperPhotoAPI.so
+vendor/lib64/libVDSuperPhotoAPI.so;DISABLE_CHECKELF
 vendor/lib64/libmialgoengine.so
 vendor/lib64/libmibokeh_712.so
 vendor/lib64/libmpbase.so
@@ -233,7 +238,7 @@ vendor/etc/sdr_config.cfg
 vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.default.so;FIX_SONAME
 vendor/lib64/libarm_proxy_skel.so
 vendor/lib64/libgf_hal.so
-vendor/lib64/libhvx_proxy_stub.so
+vendor/lib64/libhvx_proxy_stub.so;DISABLE_CHECKELF
 
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
