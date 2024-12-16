@@ -8,6 +8,9 @@
 
 function blob_fixup() {
     case "${1}" in
+        vendor/lib/hw/com.qti.chi.override.so)
+            sed -i -e 's/persist.vendor.camera.xiaomi.remapid/vendor.camera.remapids\x0\x0\x0\x0\x0\x0\x0\x0\x0\x0\x0\x0\x0\x0/' "${2}"
+            ;;
         vendor/lib/libswregistrationalgo.so)
             ${PATCHELF} --replace-needed "libprotobuf-cpp-full.so" "libprotobuf-cpp-full-v29.so" "${2}"
             ;;
