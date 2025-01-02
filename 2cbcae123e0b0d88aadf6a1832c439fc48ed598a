@@ -33,6 +33,24 @@
       "message": "We can move this to sdm710-common",
       "revId": "2cbcae123e0b0d88aadf6a1832c439fc48ed598a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9f1918ca_c82a5d84",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 30475
+      },
+      "writtenOn": "2025-01-02T19:12:58Z",
+      "side": 1,
+      "message": "Agree...",
+      "parentUuid": "19a54f0f_1cc33255",
+      "revId": "2cbcae123e0b0d88aadf6a1832c439fc48ed598a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
