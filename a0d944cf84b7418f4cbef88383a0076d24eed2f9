@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ba46bc9f_e9f32ab1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30475
+      },
+      "writtenOn": "2025-01-02T08:43:49Z",
+      "side": 1,
+      "message": "Verified by myself and other people from Pyxis\u0027 community.",
+      "revId": "a0d944cf84b7418f4cbef88383a0076d24eed2f9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
