@@ -112,6 +112,8 @@
         <device name="SND_DEVICE_IN_HEADSET_MIC" acdb_id="10008"/>
         <device name="SND_DEVICE_IN_USB_HEADSET_MIC" acdb_id="10009"/>
         <device name="SND_DEVICE_IN_VOICE_RECOG_USB_HEADSET_MIC" acdb_id="10009"/>
+        <device name="SND_DEVICE_IN_HANDSET_DMIC_STEREO" acdb_id="10010"/>
+        <device name="SND_DEVICE_IN_SPEAKER_DMIC_STEREO" acdb_id="10010"/>
         <device name="SND_DEVICE_OUT_HEADPHONES" acdb_id="10012"/>
         <device name="SND_DEVICE_OUT_HEADPHONES_44_1" acdb_id="10012"/>
         <device name="SND_DEVICE_OUT_USB_HEADSET" acdb_id="10012"/>
