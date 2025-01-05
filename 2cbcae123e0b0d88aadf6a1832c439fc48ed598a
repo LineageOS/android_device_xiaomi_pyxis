@@ -38,6 +38,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "a2d0d5f6_e7d3f8bc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30475
+      },
+      "writtenOn": "2025-01-05T12:58:14Z",
+      "side": 1,
+      "message": "Agree with change of property name to shorter `vendor.camera.remapid`",
+      "parentUuid": "dea59d25_1a9f888a",
+      "revId": "2cbcae123e0b0d88aadf6a1832c439fc48ed598a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "19a54f0f_1cc33255",
         "filename": "BoardConfig.mk",
         "patchSetId": 2
