@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2022 The LineageOS Project
+# Copyright (C) 2022-2025 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -26,6 +26,9 @@ PRODUCT_COPY_FILES += \
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
+
+# Camera
+$(call soong_config_set,camera,override_format_from_reserved,true)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \

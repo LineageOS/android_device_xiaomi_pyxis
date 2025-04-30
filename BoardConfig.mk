@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2022 The LineageOS Project
+# Copyright (C) 2022-2025 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -16,7 +16,6 @@ AUDIO_FEATURE_ENABLED_EXT_AMPLIFIER := true
 
 # Camera
 MALLOC_SVELTE_FOR_LIBC32 := true
-TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED := true
 
 # Display
 TARGET_SCREEN_DENSITY := 440
