@@ -173,7 +173,6 @@ vendor/etc/camera/camxoverridesettings.txt
 vendor/etc/camera/eyelineblush.cng
 vendor/etc/camera/golden_rear_dc_cal_wt.bin
 vendor/etc/camera/libalfpc_tuning.bin
-vendor/etc/camera/megviifacepp_0_5_2_model
 vendor/etc/camera/model_back.dlc
 vendor/etc/camera/model_front.dlc
 vendor/etc/camera/sceneDetection.xml
